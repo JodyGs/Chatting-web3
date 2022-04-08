@@ -16,7 +16,7 @@ function Header() {
             layout="fill"
             objectFit="cover"
             src={logo}
-            alt="Logo";
+            alt="logo"
           />
         </div>
         <div className="col-span-4 text-left lg:text-center">
