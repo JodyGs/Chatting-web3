@@ -12,6 +12,7 @@ function Avatar({ username, logoutOnPress }) {
       src={`https://avatars.dicebear.com/api/bottts/${username || user.get("username")}.svg`}
       onClick={() => logoutOnPress && logout()}
       layout="fill"
+      alt="avatar"
     />
   );
 }
